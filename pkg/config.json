@@ -1,0 +1,15 @@
+{
+    "development": {
+        "port": 10000,
+        "MONGO_URI": "mongodb+srv://ivanivanov:123@semosacademy.g5spopb.mongodb.net/exams?retryWrites=true&w=majority",
+        "jwt": "secret"
+    },
+    "integration": {
+        "port": 9000,
+        "MONGO_URI": "mongodb+srv://tester:testerpass@semosacademy.g5spopb.mongodb.net/exams?retryWrites=true&w=majority"
+    },
+    "production": {
+        "port": 8000,
+        "MONGO_URI": "mongodb+srv://admin:adminpass@semosacademy.g5spopb.mongodb.net/exams?retryWrites=true&w=majority"
+    }
+}
